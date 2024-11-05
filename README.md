@@ -41,8 +41,7 @@ Feel free to fork this repo if you’d like to join me in this learning journey 
 You can follow my progress and join me on this learning journey!
 
 - [LeetCode Profile](https://leetcode.com/u/ramya-t1156/)
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)
-- [Twitter](https://twitter.com/yourhandle)
+- [LinkedIn](https://www.linkedin.com/in/ramya-t-90a925291/)
 
 ---
 
