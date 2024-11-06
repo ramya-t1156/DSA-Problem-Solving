@@ -46,4 +46,8 @@ This approach has a time complexity of O(n), where n is the length of the longer
 - **Carry Mechanism**: Similar to basic addition, the carry management between nodes is essential for accuracy.
 - **Efficiency**: The single-pass approach (O(n) complexity) ensures the solution is efficient for the input constraints.
 
-Feel free to check the `add_two_numbers.c` file for the full C implementation. Happy coding!
+Feel free to check out the code files for each solution:
+
+- **C Code**: [add_two_numbers.c](add_two_numbers.c)
+
+If you have any suggestions or improvements, feel free to open an issue or a pull request. Happy coding!
