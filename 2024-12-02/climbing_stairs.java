@@ -7,7 +7,7 @@ class Solution {
             int current = prev + prev2;
             prev2 = prev;
             prev = current;
-        }
+        } 
         return prev;
     }
 }
