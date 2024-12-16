@@ -61,24 +61,15 @@ The Java solution uses an iterative approach to find the smallest element and up
 - **Iterative Operations**: Repeating the same operation multiple times on a dynamic array.  
 - **Brute Force Approach**: While not optimal for very large inputs, the implementation is clear and effective for moderate constraints.
 
----
 
 ## Complexity Analysis  
 - **Time Complexity**: **O(k * n)** where `n` is the array size and `k` is the number of iterations.  
 - **Space Complexity**: **O(1)** as no additional data structures are used.  
 
----
-
-## Tags  
-- Array  
-- Brute Force  
-- Greedy  
-
----
-
 Feel free to check out the code files for each solution:
 
-C Code: final_array_state.java
-If you have any suggestions or optimizations, contributions are welcome! 🚀  
+- **Java Code**: [final_array_state.java](final_array_state.java)
+
+If you have any suggestions or improvements, feel free to open an issue or a pull request. 🚀  
 
 Happy coding! 😊
