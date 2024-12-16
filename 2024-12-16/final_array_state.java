@@ -6,10 +6,9 @@ class Solution {
                 min = i;
             }
         }
-        return min;
+        return min; 
     }
-    public int[] getFinalState(int[] nums, int k, int multiplier) {
-        
+    public int[] getFinalState(int[] nums, int k, int multiplier) {        
         for(int i = 0;i<k;i++){
             int idx = findMin(nums);
             nums[idx] = nums[idx]*multiplier;
