@@ -1,4 +1,4 @@
-# LeetCode Problem X - Final Array State After K Multiplications
+# LeetCode Problem 3264 - Final Array State After K Multiplications
 
 ## Problem Description  
 You are given an integer array `nums`, an integer `k`, and a `multiplier`. You need to perform the following operation exactly `k` times:  
