@@ -56,34 +56,6 @@ The Java solution uses an iterative approach to find the smallest element and up
 3. **Efficiency**:  
    - Since the operation is repeated `k` times, each requiring `O(n)` time to find the minimum, the overall time complexity is **O(k * n)**.  
 
----
-
-## Code Implementation  
-### Java  
-```java
-class Solution {
-    public int findMin(int[] nums) {
-        int minIndex = 0;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] < nums[minIndex]) {
-                minIndex = i;
-            }
-        }
-        return minIndex;
-    }
-
-    public int[] getFinalState(int[] nums, int k, int multiplier) {
-        for (int i = 0; i < k; i++) {
-            int idx = findMin(nums);
-            nums[idx] = nums[idx] * multiplier;
-        }
-        return nums;
-    }
-}
-```
-
----
-
 ## Key Takeaways  
 - **Array Manipulation**: Finding and updating elements efficiently within an array.  
 - **Iterative Operations**: Repeating the same operation multiple times on a dynamic array.  
